@@ -19,14 +19,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/compression.mk)
 
-# Inherit some common TWRP stuff.
+# Inherit some common PBRP stuff.
 $(call inherit-product, vendor/pb/config/common.mk)
 
 # Inherit from LH8n device
 $(call inherit-product, device/tecno/LH8n/device.mk)
 
 PRODUCT_DEVICE := LH8n
-PRODUCT_NAME := twrp_LH8n
+PRODUCT_NAME := pb_LH8n
 PRODUCT_BRAND := TECNO
 PRODUCT_MODEL := TECNO LH8n
 PRODUCT_MANUFACTURER := tecno
