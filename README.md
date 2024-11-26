@@ -1,6 +1,4 @@
-# Android device tree for TECNO TECNO LH8n (TECNO-LH8n)
-
-## TWRP Device Tree for X1101/X1101B Unified
+# PBRP tree for TECNO LH8n (LH8n)
 
 Basic   | Spec Sheet
 -------:|:-------------------------
@@ -13,7 +11,7 @@ Storage | 128/256 GB (UFS)
 Battery | 5000 mAh, non-removable
 Display | 1080 x 2460 pixels,6.78 inches, 60/90/120hz
 
-![pova5pro](https://github.com/user-attachments/assets/b021aa97-7470-4d40-a5c3-58adaecb9e04)
+![poba5pro](https://github.com/user-attachments/assets/0bfd51aa-7b85-4d65-afe7-602bfc4cb12e)
 
 # Clone
     git clone https://github.com/naden01/tecno_LH8n-pbrp.git -b 14 device/tecno/LH8n
